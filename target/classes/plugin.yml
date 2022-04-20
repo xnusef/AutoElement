@@ -1,0 +1,10 @@
+name: AutoAvatar
+description: Automatically Selects Avatar
+author: TEXAPlayer
+main: me.TEXAPlayer.AutoAvatar.Main
+version: 0.1.0
+url: https://github.com/xnusef/AutoAvatar
+commands:
+  example:
+    aliases: ["aa"]
+    description: "Auto Avatar."

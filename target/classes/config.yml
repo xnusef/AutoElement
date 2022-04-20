@@ -1,0 +1,8 @@
+#Plugin by TEXAPlayer
+#This file stores plugin configuration
+
+enable-cycle: true
+delay: 2
+interval: 4
+player-amount: 1
+avatar-duration: 0
