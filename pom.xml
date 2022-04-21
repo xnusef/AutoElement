@@ -9,7 +9,7 @@
     <!-- Plugin Information -->
     <name>AutoElement</name>
     <description>Automatically Selects Element When Player Logs In</description>
-    <version>0.1.0</version>
+    <version>1.0.0</version>
     <url>https://github.com/xnusef/AutoElement</url>
 
     <properties>
