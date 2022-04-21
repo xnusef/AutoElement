@@ -1,10 +1,10 @@
-name: AutoAvatar
-description: Automatically Selects Avatar
+name: AutoElement
+description: Automatically Selects Element When Player Logs In
 author: TEXAPlayer
-main: me.TEXAPlayer.AutoAvatar.Main
+main: me.TEXAPlayer.AutoElement.Main
 version: 0.1.0
-url: https://github.com/xnusef/AutoAvatar
+url: https://github.com/xnusef/AutoElement
 commands:
   example:
-    aliases: ["aa"]
-    description: "Auto Avatar."
+    aliases: ["ae"]
+    description: "Auto Element."
