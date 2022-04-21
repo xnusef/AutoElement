@@ -19,7 +19,7 @@ public class Main extends JavaPlugin
         pm = server.getPluginManager();
 
         m = new Methods();
-        join = new Join(m);
+        join = new Join(this, m);
         pm.registerEvents(join, this);
     }
 }
