@@ -10,7 +10,7 @@ public class Main extends JavaPlugin
     private Server server;
     private PluginManager pm;
     private Methods m;
-    private Join join;
+    private BPlayerCreation bpCreation;
 
     @Override
     public void onEnable() 
@@ -19,7 +19,7 @@ public class Main extends JavaPlugin
         pm = server.getPluginManager();
 
         m = new Methods();
-        join = new Join(this, m);
-        pm.registerEvents(join, this);
+        bpCreation = new BPlayerCreation(m);
+        pm.registerEvents(bpCreation, this);
     }
 }
