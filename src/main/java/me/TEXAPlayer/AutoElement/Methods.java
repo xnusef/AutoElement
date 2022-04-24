@@ -21,7 +21,7 @@ public class Methods
         if (!bPlayer.hasElement(element))
             bPlayer.addElement(element);
         for (final SubElement sub : Element.getAllSubElements())
-            if (bPlayer.hasElement(sub.getParentElement()) && !bPlayer.hasSubElement(sub))
+            if (bPlayer.hasElement(sub.getParentElement()) && !bPlayer.hasSubElement(sub) && !sub.equals(Element.SubElement.BLUE_FIRE))
                 bPlayer.addSubElement(sub);
         GeneralMethods.saveElements(bPlayer);
         GeneralMethods.saveSubElements(bPlayer);
