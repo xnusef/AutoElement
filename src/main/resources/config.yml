@@ -1,0 +1,28 @@
+#Plugin by TEXAPlayer
+#This file stores plugin configuration
+
+prefix: "&e[&aAu&bto&6Ele&7me&cnt&e]"
+not-player-messages: 
+  - "You must be a player to execute the command"
+must-confirm-messages:
+  - "&cThis command cannot be undone."
+  - "&cWrite '/chi confirm' to confirm you want to be part of chi element"
+too-many-arguments-messages:
+  - "&cToo many arguments."
+sender-is-avatar-messages:
+  - "&cYou must not be an avatar to execute this command"
+chi-element:
+  - "&6Ya no controlas ningún elemento, tu habilidad se basa en la condición física. Sube de nivel para desbloquear habilidades"
+  - "&7Usa &d/b help&7 para obtener ayuda sobre los poderes"
+water-element:
+  - "&bTu elemento es el &lAGUA&r&b, sube de nivel para desbloquear habilidades"
+  - "&7Usa &d/b help&7 para obtener ayuda sobre los poderes"
+earth-element:
+  - "&aTu elemento es la &lTIERRA&r&a, sube de nivel para desbloquear habilidades"
+  - "&7Usa &d/b help&7 para obtener ayuda sobre los poderes"
+fire-element:
+  - "&cTu elemento es el &lFUEGO&r&c, sube de nivel para desbloquear habilidades"
+  - "&7Usa &d/b help&7 para obtener ayuda sobre los poderes"
+air-element:
+  - "&7Tu elemento es el &lAIRE&r&7, sube de nivel para desbloquear habilidades"
+  - "&7Usa &d/b help&7 para obtener ayuda sobre los poderes"

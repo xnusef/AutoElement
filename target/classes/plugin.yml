@@ -4,7 +4,9 @@ author: TEXAPlayer
 main: me.TEXAPlayer.AutoElement.Main
 version: 1.0.0
 url: https://github.com/xnusef/AutoElement
+api-version: 1.18
 commands:
-  example:
-    aliases: ["ae"]
-    description: "Auto Element."
+  chi:
+    description: "Removes your elemet and sets yours to chi."
+    usage: /<command>
+    permission: element.ChiCommand
